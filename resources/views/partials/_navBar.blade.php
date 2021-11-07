@@ -104,7 +104,7 @@
                             </ul>
                         </li>
                         
-                        <li>
+                        <li id="flash_update">
                             <a href="{{ route('workshop3rd') }} " class="btn btn-outline-danger my-0">Workshop (3rd Edition)</a>
                         </li>
                         

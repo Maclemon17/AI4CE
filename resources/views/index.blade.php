@@ -8,22 +8,42 @@
     <!-- banner -->
     <div class="banner_w3lspvt position-relative">
         <div class="container">
-            <h3 class="w3ls_pvt-title">Artificial Intelligence<br> <span>for Clean Energy</span></h3>
             <div class="d-md-flex">
-                {{-- <div class="row"> --}}
-                    <div class="w3ls_banner_txt">                    
+                <div class="row">
+                    <div class="w3ls_banner_txt col-md-6">                    
+                        <h3 class="w3ls_pvt-title">Artificial Intelligence<br> <span>for Clean Energy</span></h3>
                         <p class="text-sty-banner">Artificial Intelligence for Clean Energy (AI4CE) is an initiative which aims at developing innovative approaches to clean energy generation using AI and at the same time rely on Information and Communication Technology (ICT)...</p>
                         <a href=" {{ route('about') }} " class="btn button-style mt-md-5 mt-2">Read More</a>
                     </div>
-                    <div class="banner-img"> 
-                        {{-- <div class="row ab-info second pt-lg-3"> --}}
-                            <video class="img-fluid" width="650" height="400" controls autoplay muted loop >
+                    <div class="banner-img col-md-5 mt-"> 
+                        <div class="row ab-info second pt-lg-3">
+                            <video id="video"  width="650" height="400" controls autoplay muted loop>
+                                <source src="{{ asset('media/fut_video.MP4')}}" type="video/mp4" id="vid">
+                                Your browser does not support the video tag.
+                            </video>
+                            <video id="video1"  width="600" height="400" controls autoplay muted loop style="display: none">
+                                <source src="{{ asset('media/fut_video.MP4')}}" type="video/mp4" id="vid">
+                                Your browser does not support the video tag.
+                            </video>
+                            <video id="video2"  width="500" height="400" controls autoplay muted loop style="display: none">
+                                <source src="{{ asset('media/fut_video.MP4')}}" type="video/mp4" id="vid">
+                                Your browser does not support the video tag.
+                            </video>
+                            <video id="video3"  width="450" height="400" controls autoplay muted loop style="display: none">
+                                <source src="{{ asset('media/fut_video.MP4')}}" type="video/mp4" id="vid">
+                                Your browser does not support the video tag.
+                            </video>
+                            <video id="video4"  width="350" height="400" controls autoplay muted loop style="display: none">
+                                <source src="{{ asset('media/fut_video.MP4')}}" type="video/mp4" id="vid">
+                                Your browser does not support the video tag.
+                            </video>
+                            <video class="img-fluid mt-2" id="video5"  width="650" height="400" controls autoplay muted loop style="display: none">
                                 <source src="{{ asset('media/fut_video.MP4')}}" type="video/mp4" id="vid">
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                     </div>
-                {{-- </div> --}}
+                </div>
             </div>
         </div>
         <!-- animations effects -->
@@ -45,7 +65,7 @@
 <section class="team py-5" id="team">
     <div class="container py-xl-5 py-lg-3">
         <h3 class="tittle text-center font-weight-bold">Our Academic Partners</h3>
-        <p class="sub-tittle text-center mt-3 mb-sm-5 mb-4"></p>
+        {{-- <p class="sub-tittle text-center mt-3 mb-sm-5 mb-4"></p> --}}
         <div class="row ab-info second pt-lg-4">
             
             <div class="col-lg-4 col-sm-6 ab-content text-center mt-lg-0 mt-4">
@@ -89,7 +109,6 @@
 
         <div class="row ab-info second pt-lg-4">
             
-
             <div class="col-lg-4 col-sm-6 ab-content text-center mt-lg-0 mt-4">
                 <div class="ab-content-inner">
                     <img src="{{ asset('partners/lautech.png') }}" alt="lautech image" height="200" width="200" class="img-fluid">
@@ -202,8 +221,61 @@
 <!-- //team -->
 
 
+ {{-- @push('scripts') --}}
+    <script>
+        // video responsive
+        function responsive() {
+            const vid = document.querySelector("#video");
+            const vid1 = document.querySelector("#video1");
+            const vid2 = document.querySelector("#video2");
+            const vid3 = document.querySelector("#video3");
+            const vid4 = document.querySelector("#video4");
+            const vid5 = document.querySelector("#video5");
+            if (screen.width <= 1310) {
+                vid.style.display = "none";
+                vid1.style.display = "block";
+                vid2.style.display = "none";
+                vid3.style.display = "none";
+                vid4.style.display = "none";
+                vid5.style.display = "none";
+            }  
+            if (screen.width <= 1200) {
+                vid.style.display = "none";
+                vid1.style.display = "none";
+                vid2.style.display = "block";
+                vid3.style.display = "none";
+                vid4.style.display = "none";
+                vid5.style.display = "none";
+            } 
+            if (screen.width <= 1000) {
+                vid.style.display = "none";
+                vid1.style.display = "none";
+                vid2.style.display = "none";
+                vid3.style.display = "block";
+                vid4.style.display = "none";
+                vid5.style.display = "none";
+            }
+            if (screen.width <= 915) {
+                vid.style.display = "none";
+                vid1.style.display = "none";
+                vid2.style.display = "none";
+                vid3.style.display = "none";
+                vid4.style.display = "block";
+                vid5.style.display = "none";
+            }
+            if(screen.width < 765) {
+                vid.style.display = "none";
+                vid1.style.display = "none";
+                vid2.style.display = "none";
+                vid3.style.display = "none";
+                vid4.style.display = "none";
+                vid5.style.display = "block";
+            }
+        };
 
-<script>
-    document.getElementById('vid').play();
-</script>
+        setInterval(responsive, 1000);
+        document.getElementById('vid').play();
+    </script>
+ {{-- @endpush --}}
+
 @stop
