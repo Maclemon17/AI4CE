@@ -1,10 +1,9 @@
 # About AI4CE
-<h1>About AI4CE</h1>
+<!-- <h1>About AI4CE</h1> -->
 Artificial Intelligence for Clean Energy (AI4CE) is an initiative which aims at developing innovative approaches to clean energy generation using AI and at the same time rely on Information and Communication Technology (ICT) for integrating the clean energy to the existing grid system by turning academic ideas into businesses through AcadoPreneurship. This initiative is supported by the Royal Academy of Engineering UK Grant under the Higher Education Partnerships in sub-Saharan Africa (HEP-SSA) programme with project ID HEPSSA1921\3\88
 
 # Aim & Objectives
-<h1>Aim & Objectives</h1>
-
+<!-- <h1>Aim & Objectives</h1> -->  
 <ul>
 	<li>To develop online laboratory system for extending Clean Energy (CE) research capabilities in Hub-Spoke Universities (HSU) </li>
     <li>To second 5 academic to the industry under the Industry Immersion Programme (IIP), 5 industry experts to the HSU under the Academic Immersion Programme (AIP and 50 undergraduate students to industry for Student Industrial Work Experience Scheme (SIWES). 
