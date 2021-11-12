@@ -22,7 +22,7 @@
                     Energy</h3>
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3l">
-                        <img src="{{ asset('media/events_all/workshops/3rdEdition/3rd_workshop.png') }}" alt=""
+                        <img src="{{ asset('media/eventsPhotos/workshops/3rdEdition/3rd_workshop.png') }}" alt=""
                             class="img-fluid" />
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
@@ -49,19 +49,19 @@
                                 {{-- <h5 class="title-w3 text-bl mb-5 font-weight-bold" align="center"> Program of Event</h5>
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <a href="{{ asset('media/events_all/workshops/3rdEdition/day1.png') }}"
+                                        <a href="{{ asset('media/eventsPhotos/workshops/3rdEdition/day1.png') }}"
                                             target="_blank">Day 1</a>
                                     </div>
                                     <div class="col-md-3">
-                                        <a href="{{ asset('media/events_all/workshops/3rdEdition/day2.png') }}"
+                                        <a href="{{ asset('media/eventsPhotos/workshops/3rdEdition/day2.png') }}"
                                             target="_blank">Day 2</a>
                                     </div>
                                     <div class="col-md-3">
-                                        <a href="{{ asset('media/events_all/workshops/3rdEdition/day3.png') }}"
+                                        <a href="{{ asset('media/eventsPhotos/workshops/3rdEdition/day3.png') }}"
                                             target="_blank">Day 3</a>
                                     </div>
                                     <div class="col-md-3">
-                                        <a href="{{ asset('media/events_all/workshops/3rdEdition/day4.png') }}"
+                                        <a href="{{ asset('media/eventsPhotos/workshops/3rdEdition/day4.png') }}"
                                             target="_blank">Day 4</a>
                                     </div>
                                 </div> --}}
@@ -74,7 +74,7 @@
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
 
-                        <img src="{{ asset('media/events_all/workshops/3rdEdition/adamu.png') }}" alt=""
+                        <img src="{{ asset('media/eventsPhotos/workshops/3rdEdition/adamu.png') }}" alt=""
                             class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Professor Adamu Abu Kasim</h5>
                     </div>
@@ -108,7 +108,7 @@
 
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
-                        <img src="{{ asset('media/events_all/workshops/3rdEdition/nuhu.png') }}" alt=""
+                        <img src="{{ asset('media/eventsPhotos/workshops/3rdEdition/nuhu.png') }}" alt=""
                             class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Professor Nuhu George Obaje</h5>
                     </div>
@@ -144,7 +144,7 @@
 
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
-                        <img src="{{ asset('media/events_all/workshops/3rdEdition/ibrahim.png') }}" alt=""
+                        <img src="{{ asset('media/eventsPhotos/workshops/3rdEdition/ibrahim.png') }}" alt=""
                             class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Dr. Ibrahim Abdullahi</h5>
                     </div>
@@ -176,7 +176,7 @@
 
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
-                        <img src="{{ asset('media/events_all/workshops/3rdEdition/abdullahi.png') }}" alt=""
+                        <img src="{{ asset('media/eventsPhotos/workshops/3rdEdition/abdullahi.png') }}" alt=""
                             class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Abdullahi Abubakar Kawu</h5>
                     </div>
@@ -209,7 +209,7 @@
 
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
-                        <img src="{{ asset('media/events_all/workshops/3rdEdition/bamidele.png') }}" alt=""
+                        <img src="{{ asset('media/eventsPhotos/workshops/3rdEdition/bamidele.png') }}" alt=""
                             class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Prof Bamidele Adebisi</h5>
                     </div>
@@ -242,7 +242,7 @@
 
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
-                        <img src="{{ asset('media/events_all/workshops/3rdEdition/aibinu.png') }}" alt=""
+                        <img src="{{ asset('media/eventsPhotos/workshops/3rdEdition/aibinu.png') }}" alt=""
                             class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Prof Abiodun Musa AIBINU</h5>
                     </div>
@@ -274,7 +274,7 @@
 
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
-                        <img src="{{ asset('media/events_all/workshops/3rdEdition/abdulkadir.png') }}" alt=""
+                        <img src="{{ asset('media/eventsPhotos/workshops/3rdEdition/abdulkadir.png') }}" alt=""
                             class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Dr. Abdulkadir Mukhtar</h5>
                     </div>
@@ -308,7 +308,7 @@
 
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
-                        <img src="{{ asset('media/events_all/workshops/3rdEdition/steve.png') }}" alt=""
+                        <img src="{{ asset('media/eventsPhotos/workshops/3rdEdition/steve.png') }}" alt=""
                             class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Prof. Steve A. Adeshina</h5>
                     </div>

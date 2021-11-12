@@ -67,7 +67,7 @@ Route::get('events/workshops/third-edition/Day3', [EventsController::class, 'wor
 
 
 // Online Projects
-Route::get('learnergy-lms', [PagesController::class, 'lmsPage'])->name('learNergy');
+Route::get('learnergy_lms', [PagesController::class, 'lmsPage'])->name('learNergy');
 
 
 // Achievements

@@ -20,7 +20,7 @@
                 <h3 class="title-w3 text-bl mb-5 font-weight-bold">2nd Edition Workshop on Artificial Intelligence and Clean Energy</h3>
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 35px">
-                        <img src="{{ asset('media/events_all/workshops/2ndEdition/2ndworkshop.png') }}" alt="" class="img-fluid" />
+                        <img src="{{ asset('media/eventsPhotos/workshops/2ndEdition/2ndworkshop.png') }}" alt="" class="img-fluid" />
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
                         <div class="bott-w3ls mr-xl-5">
@@ -59,7 +59,7 @@
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
 
-                        <img src="{{ asset('media/events_all/workshops/2ndEdition/salami.png') }}" alt="" class="img-fluid" />
+                        <img src="{{ asset('media/eventsPhotos/workshops/2ndEdition/salami.png') }}" alt="" class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Professor Salami</h5>
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
@@ -94,7 +94,7 @@
 
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 70px">
-                        <img src="{{ asset('media/events_all/workshops/2ndEdition/ajayi.png') }}" alt="" class="img-fluid" />
+                        <img src="{{ asset('media/eventsPhotos/workshops/2ndEdition/ajayi.png') }}" alt="" class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Professor Sola Ajayi</h5>
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
@@ -131,7 +131,7 @@
 
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
-                        <img src="{{ asset('media/events_all/workshops/2ndEdition/koja.png') }}" alt="" class="img-fluid" />
+                        <img src="{{ asset('media/eventsPhotos/workshops/2ndEdition/koja.png') }}" alt="" class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Prof O. A. Koya</h5>
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
@@ -165,7 +165,7 @@
 
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
-                        <img src="{{ asset('media/events_all/workshops/2ndEdition/bamidele.png') }}" alt="" class="img-fluid" />
+                        <img src="{{ asset('media/eventsPhotos/workshops/2ndEdition/bamidele.png') }}" alt="" class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Prof Bamidele Adebisi</h5>
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
@@ -199,7 +199,7 @@
 
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
-                        <img src="{{ asset('media/events_all/workshops/2ndEdition/adeaga.png') }}" alt="" class="img-fluid" />
+                        <img src="{{ asset('media/eventsPhotos/workshops/2ndEdition/adeaga.png') }}" alt="" class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Dr Oyetunde Adeoye ADEAGA</h5>
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
@@ -233,7 +233,7 @@
 
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
-                        <img src="{{ asset('media/events_all/workshops/2ndEdition/austin.png') }}" alt="" class="img-fluid" />
+                        <img src="{{ asset('media/eventsPhotos/workshops/2ndEdition/austin.png') }}" alt="" class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Mr. Austin Kwesi Okere</h5>
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
@@ -269,7 +269,7 @@
 
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
-                        <img src="{{ asset('media/events_all/workshops/2ndEdition/aibinu.png') }}" alt="" class="img-fluid" />
+                        <img src="{{ asset('media/eventsPhotos/workshops/2ndEdition/aibinu.png') }}" alt="" class="img-fluid" />
                         <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Prof Abiodun Musa AIBINU</h5>
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">

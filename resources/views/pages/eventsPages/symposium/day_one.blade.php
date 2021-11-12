@@ -29,8 +29,8 @@
                     @foreach ($photos as $photo)
                         <div class="col-lg-4 col-sm-6 Thumbnail text-center mt-lg-0 my-4">
                             <div class="gallery">
-                                <a href="{{ asset('media/events_all/symposium/day1/'. $photo->getFilename()) }} " data-lightbox="mygallery">
-                                    <img src="{{ asset('media/events_all/symposium/day1/'. $photo->getFilename()) }}" alt="symposium arrival" height="350px" width="" class="gallery-thumbnail">
+                                <a href="{{ asset('media/eventsPhotos/symposium/day1/'. $photo->getFilename()) }} " data-lightbox="mygallery">
+                                    <img src="{{ asset('media/eventsPhotos/symposium/day1/'. $photo->getFilename()) }}" alt="symposium arrival" height="350px" width="" class="gallery-thumbnail">
                                 </a>
                             </div>
                         </div>

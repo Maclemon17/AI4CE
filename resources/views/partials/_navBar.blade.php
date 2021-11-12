@@ -14,13 +14,12 @@
                     <label for="drop" class="toggle"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></label>
                     <input type="checkbox" id="drop" />
                     <ul class="menu">
-                        <li><a href="{{ route('home') }}" class="active">Home</a></li>
-
+                        <li><a href="{{ route('home') }}" class="{{ Request::is('/') ? "active" : "" }}">Home</a></li>
                         <li>
                             <!-- First Tier Drop Down -->
                             <label for="drop-1" class="toggle toogle-1">About AI4CE<span class="fa fa-angle-down" aria-hidden="true"></span>
                             </label>
-                            <a href="{{ route('about')}}"> About AI4CE <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <a href="{{ route('about')}}" class="{{ Request::is('about-us') ? "active" : "" }}"> About AI4CE <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                             <input type="checkbox" id="drop-1" />
                             <ul>
                                 <li><a href="{{ route('about') }}#aim_objectives" class="drop-text">Aim & Objectives</a></li>
@@ -33,7 +32,7 @@
                             <!-- First Tier Drop Down -->
                             <label for="drop-2" class="toggle toogle-2">The Projects<span class="fa fa-angle-down" aria-hidden="true"></span>
                             </label>
-                            <a href="#"> The Projects <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <a href="#" class="{{ Request::is('research-activities') || Request::is('capacity-building') || Request::is('curriculum-development') || Request::is('acado_prenuership') || Request::is('acado_prenuership/start_up') ? "active" : "" }}"> The Projects <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                             <input type="checkbox" id="drop-2" />
                             <ul>
                                 <li><a href="{{ route('research') }}" class="drop-text">Research Activities</a></li>
