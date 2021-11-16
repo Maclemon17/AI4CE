@@ -32,7 +32,7 @@
                             <!-- First Tier Drop Down -->
                             <label for="drop-2" class="toggle toogle-2">The Projects<span class="fa fa-angle-down" aria-hidden="true"></span>
                             </label>
-                            <a href="#" class="{{ Request::is('research-activities') || Request::is('capacity-building') || Request::is('curriculum-development') || Request::is('acado_prenuership') || Request::is('acado_prenuership/start_up') ? "active" : "" }}"> The Projects <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <a href="#" class="{{ Request::is('projects*') ? "active" : "" }}"> The Projects <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                             <input type="checkbox" id="drop-2" />
                             <ul>
                                 <li><a href="{{ route('research') }}" class="drop-text">Research Activities</a></li>
@@ -46,7 +46,7 @@
                             <!-- First Tier Drop Down -->
                             <label for="drop-3" class="toggle toogle-3">Events<span class="fa fa-angle-down" aria-hidden="true"></span>
                             </label>
-                            <a href="#"> Events <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <a href="#" class="{{ Request::is('events*') ? "active" : "" }}"> Events <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                             <input type="checkbox" id="drop-3" />
                             <ul>
                                 <li><a href="{{ route('symposium') }}" class="drop-text">Symposium</a></li>
@@ -61,6 +61,7 @@
                                         <li><a href="{{-- {{ route('workshop1st') }} --}}" class="drop-text">1st Edition</a></li>
                                         <li><a href="{{ route('workshop2nd') }}" class="drop-text">2nd Edition</a></li>
                                         <li><a href="{{ route('workshop3rd') }}" class="drop-text">3rd Edition</a></li>
+                                        <li><a href="{{ route('workshop4th') }}" class="drop-text">4th Edition</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -70,7 +71,7 @@
                             <!-- First Tier Drop Down -->
                             <label for="drop-5" class="toggle toogle-5">Online Projects<span class="fa fa-angle-down" aria-hidden="true"></span>
                             </label>
-                            <a href="{{ route('about')}}"> Online Projects <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <a href="#" class="{{ Request::is('learnergy_lms') ? "active" : "" }}"> Online Projects <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                             <input type="checkbox" id="drop-5" />
                             <ul>
                                 <li><a href="{{ route('learNergy') }}">LearNergy LMS</a></li>
@@ -81,7 +82,7 @@
                             <!-- First Tier Drop Down -->
                             <label for="drop-6" class="toggle toogle-6">More Info <span class="fa fa-angle-down" aria-hidden="true"></span>
                             </label>
-                            <a href="#">More Info<span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <a href="#" class="{{ Request::is('achievements*') || Request::is('contact-us') || Request::is('opportunities') ? "active" : "" }}">More Info<span class="fa fa-angle-down" aria-hidden="true"></span></a>
                             <input type="checkbox" id="drop-6" />
                             <ul>
                                 <li><a href="{{ route('opportunity') }}" class="drop-text">Opportunities</a></li>

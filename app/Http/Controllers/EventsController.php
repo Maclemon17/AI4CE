@@ -124,7 +124,35 @@ class EventsController extends Controller
     
    
     /* Third Edition Ends */
+    
+    
+    /* Fourth Edition Starts */
 
+    public function workshop4th() {
+        
+        return view('pages.eventsPages.workshops.4thEdition.workshop_4th');
+    }
+
+    public function workshop4thDay1() {
+        $photos = \File::allFiles(public_path('media/eventsPhotos/workshops/4thEdition/day1'));
+
+        return view('pages.eventsPages.workshops.4thEdition.day_one', compact('photos'));
+    }
+
+    public function workshop4thDay2() {
+        $photos = \File::allFiles(public_path('media/eventsPhotos/workshops/4thEdition/day2'));
+
+        return view('pages.eventsPages.workshops.4thEdition.day_two', compact('photos'));
+    }
+
+    public function workshop4thDay3() {
+        $photos = \File::allFiles(public_path('media/eventsPhotos/workshops/4thEdition/day3'));
+
+        return view('pages.eventsPages.workshops.4thEdition.day_three', compact('photos'));
+    }
+    
+   
+    /* Fourth Edition Ends */
 
 
     ###########     Workshop  Ends   ###########

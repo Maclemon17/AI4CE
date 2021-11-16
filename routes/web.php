@@ -28,11 +28,11 @@ Route::get('contact-us', [PagesController::class, 'contactUs'])->name('contact')
 Route::get('opportunities', [PagesController::class, 'opportunity'])->name('opportunity');
 
 // The Projects
-Route::get('research-activities', [pagesController::class, 'researchActivities'])->name('research');
-Route::get('capacity-building', [pagesController::class, 'capacityBuilding'])->name('capacityBuilding');
-Route::get('curriculum-development', [pagesController::class, 'curriculumDev'])->name('curriculum');
-Route::get('acado_prenuership', [PagesController::class, 'acadoPre'])->name('acado');
-Route::get('acado_prenuership/start-up', [PagesController::class, 'startUpLoop'])->name('acado_start');
+Route::get('projects/research-activities', [pagesController::class, 'researchActivities'])->name('research');
+Route::get('projects/capacity-building', [pagesController::class, 'capacityBuilding'])->name('capacityBuilding');
+Route::get('projects/curriculum-development', [pagesController::class, 'curriculumDev'])->name('curriculum');
+Route::get('projects/acado_prenuership', [PagesController::class, 'acadoPre'])->name('acado');
+Route::get('projects/acado_prenuership/start-up', [PagesController::class, 'startUpLoop'])->name('acado_start');
 
 
 // Events
@@ -62,6 +62,11 @@ Route::get('events/workshops/third-edition/Day1', [EventsController::class, 'wor
 Route::get('events/workshops/third-edition/Day2', [EventsController::class, 'workshop3rdDay2'])->name('workshop3rdDay2');
 Route::get('events/workshops/third-edition/Day3', [EventsController::class, 'workshop3rdDay3'])->name('workshop3rdDay3');
 
+//  Fourth Edition
+Route::get('events/workshops/fourth-edition', [EventsController::class, 'workshop4th'])->name('workshop4th');
+Route::get('events/workshops/fourth-edition/Day1', [EventsController::class, 'workshop4thDay1'])->name('workshop4thDay1');
+Route::get('events/workshops/fourth-edition/Day2', [EventsController::class, 'workshop4thDay2'])->name('workshop4thDay2');
+Route::get('events/workshops/fourth-edition/Day3', [EventsController::class, 'workshop4thDay3'])->name('workshop4thDay3');
 
 // Events Ends 
 
