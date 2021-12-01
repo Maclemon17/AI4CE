@@ -32,7 +32,8 @@
 				This initiative is supported by the Royal Academy of Engineering UK Grant under the Higher Education Partnerships in sub-Saharan Africa (HEP-SSA) programme with project ID HEPSSA1921\3\88</p>
 			</div>
 			<div class="col-lg-7 welcome-right text-center mt-lg-0 mt-5">
-				<img src="{{ asset('web/images/about.png') }}" alt="" class="img-fluid" />
+				{{-- <img src="{{ asset('web/images/about.png') }}" alt="" class="img-fluid" /> --}}
+				<img src="{{ asset('media/ai4ce_logo.png') }}" alt="" class="img-fluid" />
 			</div>
 		</div>
 	</div>
