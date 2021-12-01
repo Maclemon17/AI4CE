@@ -1,6 +1,6 @@
     <title>AI4CE | @yield('title')</title>
     <!-- favicon -->
-    <link rel="shortcut icon" href="{{ asset('media\ai4ce1.png') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('media/favicon.png') }}" type="image/x-icon">
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />

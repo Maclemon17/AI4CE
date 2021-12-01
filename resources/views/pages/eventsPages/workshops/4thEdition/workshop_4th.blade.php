@@ -47,7 +47,7 @@
 
                                 </li>
                                 <hr>
-                                {{-- <h5 class="title-w3 text-bl mb-5 font-weight-bold" align="center"> Program of Event</h5>
+                                <h5 class="title-w3 text-bl mb-5 font-weight-bold" align="center"> Program of Event</h5>
                                 <div class="row">
                                     <div class="col-md-3">
                                         <a href="{{ asset('media/eventsPhotos/workshops/4thEdition/day1.png') }}"
@@ -65,7 +65,7 @@
                                         <a href="{{ asset('media/eventsPhotos/workshops/4thEdition/day4.png') }}"
                                             target="_blank">Day 4</a>
                                     </div>
-                                </div> --}}
+                                </div>
                             </ul>
 
                         </div>
@@ -75,8 +75,9 @@
                 <div class="row mb-5">
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
 
-                        <img src="{{ asset('media/eventsPhotos/workshops/3rdEdition/ojo.png') }}" alt="Prof Ojo"
+                        <img src="{{ asset('media/eventsPhotos/workshops/4thEdition/ojo.jpg') }}" alt="Prof Ojo"
                             class="img-fluid" />
+                        <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Professor John Adedapo OJO</h5>
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
                         <div class="bott-w3ls mr-xl-5">
@@ -112,6 +113,7 @@
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
                         <img src="{{ asset('media/eventsPhotos/workshops/4thEdition/aibinu.jpg') }}" alt="Prof Aibinu"
                             class="img-fluid" />
+                        <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Professor Abiodun Musa AIBINU</h5>
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
                         <div class="bott-w3ls mr-xl-5">
@@ -147,6 +149,7 @@
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
                         <img src="{{ asset('media/eventsPhotos/workshops/4thEdition/adesola.jpg') }}" alt="Prof Aderounmu"
                             class="img-fluid" />
+                        <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Professor Adesola Aderounmu </h5>
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
                         <div class="bott-w3ls mr-xl-5">
@@ -191,6 +194,7 @@
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
                         <img src="{{ asset('media/eventsPhotos/workshops/4thEdition/xiongwei.jpg') }}" alt=""
                             class="img-fluid" />
+                        <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Professor Xiongwei Liu</h5>
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
                         <div class="bott-w3ls mr-xl-5">
@@ -226,6 +230,7 @@
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
                         <img src="{{ asset('media/eventsPhotos/workshops/4thEdition/alice.jpg') }}" alt=""
                             class="img-fluid" />
+                        <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Professor Alice Oluwafunke Oke</h5>
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
                         <div class="bott-w3ls mr-xl-5">
@@ -259,6 +264,8 @@
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
                         <img src="{{ asset('media/eventsPhotos/workshops/4thEdition/adedayo.jpg') }}" alt=""
                             class="img-fluid" />
+                        <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Professor Adedayo Yusuff</h5>
+
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
                         <div class="bott-w3ls mr-xl-5">
@@ -294,6 +301,8 @@
                     <div class="col-lg-5 left-img-w3ls" style="padding-top: 90px">
                         <img src="{{ asset('media/eventsPhotos/workshops/4thEdition/timothy.jpg') }}" alt=""
                             class="img-fluid" />
+                        <h5 class="title-w3 text-bl mb-1 font-weight-bold text-left">Engineer Oluseye Timothy Odeleye</h5>
+
                     </div>
                     <div class="col-lg-7 right-img-w3ls pl-lg-4 mt-lg-2 mt-4">
                         <div class="bott-w3ls mr-xl-5">
@@ -341,7 +350,7 @@
                                 <li class='text-justify'>
                                     <p>Ifeoluwa David Solomon is a research assistant with Signal and Information
                                         Processing, Instrumentation and Control (SIPIC) Research group, Ladoke Akintola
-                                        University of Technology (LAUTECH), Ogbomoso. 
+                                        University of Technology (LAUTECH), Ogbomoso.
                                     </p><br>
                                     <p>He holds an M.Tech degree in Electronic and Electrical Engineering from LAUTECH. He
                                         has been a part of a number of studies and has a number of peer-reviewed journal

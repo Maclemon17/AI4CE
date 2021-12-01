@@ -46,7 +46,7 @@
 
                                 </li>
                                 <hr>
-                                {{-- <h5 class="title-w3 text-bl mb-5 font-weight-bold" align="center"> Program of Event</h5>
+                                <h5 class="title-w3 text-bl mb-5 font-weight-bold" align="center"> Program of Event</h5>
                                 <div class="row">
                                     <div class="col-md-3">
                                         <a href="{{ asset('media/eventsPhotos/workshops/3rdEdition/day1.png') }}"
@@ -64,7 +64,7 @@
                                         <a href="{{ asset('media/eventsPhotos/workshops/3rdEdition/day4.png') }}"
                                             target="_blank">Day 4</a>
                                     </div>
-                                </div> --}}
+                                </div>
                             </ul>
 
                         </div>
